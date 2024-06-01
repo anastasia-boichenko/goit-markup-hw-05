@@ -550,7 +550,6 @@ button {
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
   z-index: 999;
-  padding: 72px 24px 24px;
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
@@ -574,7 +573,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 72px;
+  padding: 72px 24px 24px 24px;
 }
 .modal-btn {
   display: flex;
@@ -618,14 +617,10 @@ button {
   letter-spacing: 0.32px;
   color: #2e2f42;
   width: 360px;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 16px;
   text-align: center;
 }
 .modal-wrapper {
-  margin-right: 24px;
-  margin-left: 24px;
   margin-bottom: 8px;
 }
 .modal-label {
@@ -671,8 +666,6 @@ button {
   fill: #4d5ae5;
 }
 .textarea {
-  margin-right: 24px;
-  margin-left: 24px;
   margin-bottom: 16px;
 }
 .text-field {
@@ -706,8 +699,6 @@ button {
   letter-spacing: 0.48px;
 }
 .modal-checkbox {
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 24px;
 }
 .checkbox:checked + .label-checkbox > .checkbox-user-span {
@@ -716,6 +707,7 @@ button {
   fill: #f4f4fd;
 }
 .checkbox-user-span {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
@@ -724,7 +716,6 @@ button {
   border-radius: 2px;
   fill: transparent;
   margin-right: 8px;
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
