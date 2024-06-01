@@ -706,7 +706,7 @@ button {
   border: transparent;
   fill: #f4f4fd;
 }
-.checkbox-user-span {
+.checkbox-span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
