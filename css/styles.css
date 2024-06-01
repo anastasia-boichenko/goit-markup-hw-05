@@ -708,6 +708,9 @@ button {
 }
 .checkbox-user-span {
   display: inline-flex;
+}
+.checkbox-user-span {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
